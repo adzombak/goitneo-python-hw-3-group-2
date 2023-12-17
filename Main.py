@@ -5,7 +5,7 @@ from utils.handlers import parse_input
 def main():
     print("Welcome to the assistant bot!")
     book = AddressBook()
-    file_path = 'address_book_data.txt'
+    file_path = 'data/address_book_data.txt'
     book.load_from_file(file_path)
     while True:
         user_input = input("Enter a command: ")
